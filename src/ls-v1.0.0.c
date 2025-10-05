@@ -1,12 +1,3 @@
-/*
-* Programming Assignment 02: lsv1.0.0
-* This is the source file of version 1.0.0
-* Read the write-up of the assignment to add the features to this base version
-* Usage:
-*       $ lsv1.0.0 
-*       % lsv1.0.0  /home
-*       $ lsv1.0.0  /home/kali/   /etc/
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -61,3 +52,4 @@ void do_ls(const char *dir)
 
     closedir(dp);
 }
+
