@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -g
-SRC = src/ls-v1.2.0.c
-OBJ = obj/ls-v1.2.0.o
+SRC = src/ls-v1.3.0.c
+OBJ = obj/ls-v1.3.0.o
 BIN = bin/ls
 
 $(BIN): $(OBJ)
